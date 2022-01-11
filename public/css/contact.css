@@ -1,0 +1,44 @@
+#contact {
+  padding: 80px 0;
+  background: #f1f5f8;
+  width: 100%;
+  margin: 0;
+}
+.line3 {
+  width: 115px;
+  height: 5px;
+  border-radius: 10px solid #289da8;
+  background-color: #289da8;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-info2 {
+  box-shadow: 1px 1px 15px black;
+  border-radius: 2%;
+}
+.contact-info1 {
+  box-shadow: 1px 1px 15px black;
+  padding: 30px;
+  border-radius: 2%;
+  text-align: center;
+}
+.contact-info1 a {
+  font-weight: lighter;
+}
+.sub-btn {
+  background: #289da8;
+  color: #fff;
+  margin: 10px;
+}
+.sub-btn:hover {
+  background: #fff;
+  color: #289da8;
+  border: #289da8 2px solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-contact {
+    margin: 20px;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,98 @@
+#container-services {
+  background: #289da8;
+  padding: 80px 0;
+  width: 100%;
+}
+
+/* service box  */
+
+/* bg-grey in globals */
+.service {
+  background: #fff;
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 0.3s linear;
+  box-shadow: 1px 1px 15px #289da8;
+}
+.services-center {
+  margin: 0 20px;
+}
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+  font-size: medium;
+  line-height: 2;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.line3 {
+  width: 115px;
+  height: 5px;
+  border-radius: 10px solid #289da8;
+  background-color: #94b9ba;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.service .line3 {
+  width: 3rem;
+  height: 0.12rem;
+  transition: all 0.3s linear;
+}
+.service p {
+  transition: all 0.3s linear;
+}
+.service:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #289da8;
+  cursor: pointer;
+}
+.service:hover p {
+  color: #289da8;
+}
+.service:hover .underline {
+  background: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .service {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 676px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
